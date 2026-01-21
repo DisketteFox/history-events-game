@@ -98,10 +98,10 @@ public class EventAdapter extends RecyclerView.Adapter<EventAdapter.ViewHold> {
                             if (Objects.equals(selectedItem, tvDate.getText().toString())) {
                                 events.remove(selectedEvent);
                                 notifyItemRemoved(position);
-                                Toast.makeText(itemView.getContext(), "True: " + selectedEvent.getEventTitle(), Toast.LENGTH_SHORT).show();
+                                Toast.makeText(itemView.getContext(), "Correcto", Toast.LENGTH_SHORT).show();
                             } else {
                                 cv.setCardBackgroundColor(itemView.getContext().getResources().getColor(R.color.red));
-                                Toast.makeText(itemView.getContext(), "False", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(itemView.getContext(), "Incorrecto", Toast.LENGTH_SHORT).show();
                             }
                         })
                         .setNegativeButton("CANCEL", (dialog, which) -> dialog.dismiss());
