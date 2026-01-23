@@ -1,4 +1,4 @@
-<p align=center><image src="./docs/images/logo.png" height="150" /></p>
+<p align=center><image src="./docs/images/icon.png" height="150" /></p>
 <h1 align="center">History Events Game</h1>
 
 History Events Game is a basic **Android** app made with *Java*, which consists of a gema using CardView, that asks you the dates of different historic eventsIt uses dynamic theming.
